@@ -52,12 +52,13 @@ class Graph:
                     queue.append(i)
                     vertex_visited[i]=True
 
+        #u and v connect with vertex of graph
         if u in connected_vertex and v in connected_vertex:
              return True
         return False
 
     #djkstra method was defined to find the shortest distance between the given node and all other nodes
-    def djkstra(self, node):
+    def dijkstra(self, node):
 
         dist={}
         vertex_visited={}
@@ -108,7 +109,7 @@ class Graph:
     #find a path between src and dest point
     def src_to_dest(self, u, v):
         if self.connect(u, v):
-            prev_vertex = self.djkstra(u)
+            prev_vertex = self.dijkstra(u)
             prev_vertex=list(prev_vertex.items())
 
             size=len(prev_vertex)
@@ -127,7 +128,7 @@ class Graph:
             return src_to_dest
         return -1
 
-#driver code        
+       
 def main():
     
     #add argument for input,output and source and dest point
@@ -141,7 +142,8 @@ def main():
     parser.add_argument('-d', type=str, default="4,4",
                         help='-d for dist point')
     args = parser.parse_args()
-    
+
+#----------------------------------------------------driver code--------------------------------------------------------------------   
     g=Graph()
     
     #to read input file
