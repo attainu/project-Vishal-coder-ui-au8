@@ -13,7 +13,7 @@ In this project aim is a maze in the form of matrix will be given in the form of
    4) File Handling
    5) Command line parsing
 
-## Following are the importused in the project
+## Following are the import used in the project
    1) Defaultdict -- to store graph datastructure
    2) Argparse -- to read command line arguments
 
