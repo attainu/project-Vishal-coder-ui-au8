@@ -7,11 +7,11 @@ In this project aim is a maze in the form of matrix will be given in the form of
     Main goal is to find the path between the source to destination in the maze (if the path exists) otherwise return -1 as output
 
 ## Concepts used
-   Graphs datastructure
-   Breadth-First-Search Algorithm
-   Dijkstra's algorithm
-   File Handling
-   Command line parsing
+   1) Graphs datastructure
+   2) Breadth-First-Search Algorithm
+   3) Dijkstra's algorithm
+   4) File Handling
+   5) Command line parsing
 
 ## Following are the importused in the project
    Defaultdict -- to store graph datastructure
