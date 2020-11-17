@@ -31,7 +31,7 @@ In this project aim is a maze in the form of matrix will be given in the form of
    Project consist of 3 contents:-
    1) maze.py
    2) inputfile.txt
-   3)outputfile.txt
+   3) outputfile.txt
 
    --> Firstly it takes the input from the user in the form of m*n
    --> After input is given open the terminal and give the command to see the output in outputfile.txt
