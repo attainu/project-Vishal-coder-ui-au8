@@ -7,15 +7,15 @@ In this project aim is a maze in the form of matrix will be given in the form of
     Main goal is to find the path between the source to destination in the maze (if the path exists) otherwise return -1 as output
 
 ## Concepts used
-   Graphs datastructure
-   Breadth-First-Search Algorithm
-   Dijkstra's algorithm
-   File Handling
-   Command line parsing
+   1) Graphs datastructure
+   2) Breadth-First-Search Algorithm
+   3) Dijkstra's algorithm
+   4) File Handling
+   5) Command line parsing
 
-## Following are the importused in the project
-   Defaultdict -- to store graph datastructure
-   Argparse -- to read command line arguments
+## Following are the import used in the project
+   1) Defaultdict -- to store graph datastructure
+   2) Argparse -- to read command line arguments
 
 ## Idea to solve
    From the given matrix identify the positions, which has 1 and take them as vertices(nodes) of the graph.
@@ -31,7 +31,7 @@ In this project aim is a maze in the form of matrix will be given in the form of
    Project consist of 3 contents:-
    1) maze.py
    2) inputfile.txt
-   3)outputfile.txt
+   3) outputfile.txt
 
    --> Firstly it takes the input from the user in the form of m*n
    --> After input is given open the terminal and give the command to see the output in outputfile.txt
