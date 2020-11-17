@@ -9,7 +9,7 @@ In this project aim is a maze in the form of matrix will be given in the form of
 ## Concepts used
    1) Graphs datastructure
    2) Breadth-First-Search Algorithm
-   3) Dijkstra's algorithm
+   3) Dijkstra's algorithm 
    4) File Handling
    5) Command line parsing
 
