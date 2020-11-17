@@ -14,8 +14,8 @@ In this project aim is a maze in the form of matrix will be given in the form of
    5) Command line parsing
 
 ## Following are the importused in the project
-   Defaultdict -- to store graph datastructure
-   Argparse -- to read command line arguments
+   1) Defaultdict -- to store graph datastructure
+   2) Argparse -- to read command line arguments
 
 ## Idea to solve
    From the given matrix identify the positions, which has 1 and take them as vertices(nodes) of the graph.
